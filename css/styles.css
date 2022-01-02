@@ -335,6 +335,10 @@ img {
 
 /* ====== Команда ======== */
 
+.teams {
+  background-color: #f5f4fa;
+}
+
 .teams-list {
   display: flex;
 }
@@ -361,6 +365,8 @@ img {
 }
 
 .notes {
+  background-color: #fff;
+
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -420,6 +426,10 @@ img {
 
 /* ########## клієнти ######### */
 
+.clients .container {
+  padding-right: 0;
+  padding-left: 0;
+}
 .clients-list {
   display: flex;
   justify-content: center;
@@ -428,8 +438,6 @@ img {
 
 .clients-link {
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 50px;
 
   justify-content: space-around;
   align-items: center;
@@ -493,8 +501,6 @@ img {
 }
 
 .cards-item {
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-
   margin-right: 30px;
   margin-bottom: 30px;
 }
